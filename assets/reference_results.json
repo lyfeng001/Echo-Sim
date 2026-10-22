@@ -1,0 +1,55 @@
+{
+  "scope": "Completed original experiment runs; evaluation seeds share a checkpoint per model",
+  "trials_per_seed": 1500,
+  "results": [
+    {
+      "model": "PI05 success + recovery",
+      "checkpoint_sha256": "3ffd5ce778f17af8768cec5f50a7c2b02ecb88035ed4edd82b51069014608d5c",
+      "training_steps": 2500,
+      "prompt_protocol": "canonical_task_prompt_v3",
+      "rollout": "stop_at_first_success",
+      "seeds": [
+        {
+          "seed": 7,
+          "completed": 1500,
+          "successes": 493
+        },
+        {
+          "seed": 17,
+          "completed": 1500,
+          "successes": 466
+        },
+        {
+          "seed": 27,
+          "completed": 1500,
+          "successes": 511
+        }
+      ],
+      "seed7_aggregate_sha256": "ca948906aa8fe567e0f0873b2ad120fc9c41a0bc4e87a1726326d93a19285dc7"
+    },
+    {
+      "model": "Echo tau_clean=0.7",
+      "checkpoint_sha256": "8e57a31c92be7269e7ec4277baf53744abe6b231f5ac519022ca58d557280695",
+      "training_steps": 2500,
+      "prompt_protocol": "canonical_task_prompt_v3",
+      "rollout": "full_520_actions_first_success_latched",
+      "seeds": [
+        {
+          "seed": 7,
+          "completed": 1500,
+          "successes": 517
+        },
+        {
+          "seed": 17,
+          "completed": 1500,
+          "successes": 520
+        },
+        {
+          "seed": 27,
+          "completed": 1500,
+          "successes": 527
+        }
+      ]
+    }
+  ]
+}

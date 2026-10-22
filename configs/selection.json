@@ -1,0 +1,10 @@
+{
+  "mode": "reseed",
+  "scene_root": "data/scenes",
+  "reference_manifest": "manifests/evaluation_seed7.json",
+  "selection_seed": 7,
+  "episode_seed": 37,
+  "scenes_per_suite": 30,
+  "trials_per_gripper": 5,
+  "output": "manifests/evaluation_seed37.json"
+}

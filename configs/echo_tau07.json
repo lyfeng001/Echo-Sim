@@ -1,0 +1,42 @@
+{
+  "method": "echo",
+  "tau_clean": 0.7,
+  "checkpoint": "data/pretrained/pi05_libero_starvla/fp32/model.safetensors",
+  "tokenizer": "data/paligemma_tokenizer.model",
+  "data_config": "configs/data.json",
+  "manifest": "manifests/training.json.gz",
+  "validation_receipt": "data/training_validation.json",
+  "run_dir": "runs/echo_tau07",
+  "seed": 42,
+  "world_size": 4,
+  "batch_size": 32,
+  "max_steps": 2500,
+  "warmup_steps": 125,
+  "lr": 1e-05,
+  "min_lr": 1e-06,
+  "lr_schedule": "cosine",
+  "weight_decay": 1e-10,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "eps": 1e-08,
+  "grad_clip": 1.0,
+  "samples_per_epoch": 320000,
+  "sampling_block_size": 32,
+  "sampling_weights": {
+    "success": 40,
+    "failure": 1,
+    "recovery": 20
+  },
+  "num_workers": 0,
+  "cache_episodes": 2,
+  "save_steps": [
+    10
+  ],
+  "save_interval": 500,
+  "gradient_checkpointing": true,
+  "ss_loss_weight": 1.0,
+  "fs_loss_weight": 1.0,
+  "ss_no_padding_weight": 0.1
+}

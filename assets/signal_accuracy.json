@@ -1,0 +1,142 @@
+{
+  "model": "Echo",
+  "tau_clean": 0.7,
+  "training_steps": 2500,
+  "checkpoint_sha256": "8e57a31c92be7269e7ec4277baf53744abe6b231f5ac519022ca58d557280695",
+  "rollout": "full_520_actions_first_success_latched",
+  "max_steps": 520,
+  "signal_reduction": "mean over all 50 predicted values; no clipping or smoothing",
+  "config": {
+    "ss_threshold": 0.5,
+    "fs_threshold": 0.5,
+    "success_window_seconds": 3.0,
+    "control_hz": 20
+  },
+  "aggregation": "correct frame counts divided by total included frame counts across all trials and seeds",
+  "seeds": [
+    {
+      "seed": 7,
+      "complete": true,
+      "completed": 1500,
+      "environment_successes": 517,
+      "frame": {
+        "correct": 572436,
+        "total": 637721,
+        "accuracy": 0.8976276459454839,
+        "by_ground_truth": {
+          "ongoing": {
+            "correct": 549396,
+            "total": 606856,
+            "accuracy": 0.905315264247202
+          },
+          "success": {
+            "correct": 23040,
+            "total": 30865,
+            "accuracy": 0.7464765916086181
+          }
+        }
+      },
+      "missing_post_success_query": 4,
+      "truncated_success_windows": 17
+    },
+    {
+      "seed": 17,
+      "complete": true,
+      "completed": 1500,
+      "environment_successes": 520,
+      "frame": {
+        "correct": 579898,
+        "total": 640418,
+        "accuracy": 0.905499220821401,
+        "by_ground_truth": {
+          "ongoing": {
+            "correct": 556894,
+            "total": 609168,
+            "accuracy": 0.9141878759225698
+          },
+          "success": {
+            "correct": 23004,
+            "total": 31250,
+            "accuracy": 0.736128
+          }
+        }
+      },
+      "missing_post_success_query": 3,
+      "truncated_success_windows": 16
+    },
+    {
+      "seed": 27,
+      "complete": true,
+      "completed": 1500,
+      "environment_successes": 527,
+      "frame": {
+        "correct": 573376,
+        "total": 640042,
+        "accuracy": 0.8958412104205662,
+        "by_ground_truth": {
+          "ongoing": {
+            "correct": 549804,
+            "total": 608173,
+            "accuracy": 0.9040256637502816
+          },
+          "success": {
+            "correct": 23572,
+            "total": 31869,
+            "accuracy": 0.7396529542815903
+          }
+        }
+      },
+      "missing_post_success_query": 0,
+      "truncated_success_windows": 16
+    }
+  ],
+  "overall": {
+    "completed": 4500,
+    "environment_successes": 1564,
+    "frame": {
+      "correct": 1725710,
+      "total": 1918181,
+      "accuracy": 0.8996596254472337,
+      "by_ground_truth": {
+        "ongoing": {
+          "correct": 1656094,
+          "total": 1824197,
+          "accuracy": 0.9078482203402374
+        },
+        "success": {
+          "correct": 69616,
+          "total": 93984,
+          "accuracy": 0.7407218249914879
+        }
+      }
+    },
+    "missing_post_success_query": 7,
+    "truncated_success_windows": 49
+  },
+  "provenance": {
+    "analysis_commit": "ed57133c9c367119f8298ad4c31c21b277946192",
+    "signal_module_sha256": "b5226ea44ad318d002bb252cf204f1e4baabb4ad0b7b89049df32c44cfad5f61",
+    "result_validation_sha256": "6a8e48f6574c70b8723192a1f65808809ff5707028bfcf3429f4b827caa48ebe",
+    "config_sha256": "1f26e614ed61c2d500b72e801ac88d5bd440c50137734ef8b1a7886f5a7dbad4",
+    "runs": [
+      {
+        "seed": 7,
+        "manifest_sha256": "c719292991a6a42f6715a10dda280809bc077cceb2221f8d017cbd41f3233752",
+        "report_sha256": "8bbc15dafc86efd123ff7af662b4fc5ab683cc59ad83dc222d5ec02020ed4c01",
+        "sources_sha256": "4beb1479130be6ca53447e629bdc88e493eada1801d390476353d7d1e2ff176e"
+      },
+      {
+        "seed": 17,
+        "manifest_sha256": "cb96364405111fc3789be2b1b033592bc93d54e49b2575c9f4a62717494dd4d2",
+        "report_sha256": "d53d48dc1bb9fd8328066ded45f7b3ab43610daf1dae40beede631706e7b521f",
+        "sources_sha256": "e4efa0cfa1371152ae21553e014e4911654f709819f89723e535bbab3772b4ba"
+      },
+      {
+        "seed": 27,
+        "manifest_sha256": "6d5fbd3ad50a043a226b43d3dbcc1dc2f81f42c24e201b6cef307374bfd2f038",
+        "report_sha256": "864c3552af03cec1f571dc6d37d92dd23cb6f1b76ab7d5b715cfe2d021ceeece",
+        "sources_sha256": "820470da1739ab3f4440629e1e6516101f3fb77b34e20fb1e8d39f9ff370355d"
+      }
+    ]
+  }
+}

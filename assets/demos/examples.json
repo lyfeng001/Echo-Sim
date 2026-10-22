@@ -1,0 +1,132 @@
+{
+  "model": "Echo",
+  "tau_clean": 0.7,
+  "training_step": 2500,
+  "checkpoint_sha256": "8e57a31c92be7269e7ec4277baf53744abe6b231f5ac519022ca58d557280695",
+  "sample_seed": 20261013,
+  "sampling": "uniform without replacement, two trials from each then-completed pool; no outcome filter",
+  "pool_sizes": {
+    "7": 1367,
+    "17": 1387,
+    "27": 1348
+  },
+  "control_hz": 20,
+  "signal_reduction": "mean over all H50 values; no clipping or smoothing",
+  "video_terminal_hold_seconds": 1,
+  "examples": [
+    {
+      "id": "eb4a6c4a6cf292106bbb",
+      "evaluation_seed": 7,
+      "success": false,
+      "first_success_step": null,
+      "steps": 520,
+      "video": "timeout.mp4",
+      "preview": "timeout.png",
+      "files": {
+        "timeout.mp4": {
+          "sha256": "ea28650a0ace1b2332fc4c1016773981c5186c2ad6ce9b4efd07af8bdf53a23b",
+          "bytes": 2401279
+        },
+        "timeout.png": {
+          "sha256": "ef0c241d780c5b81e9565676f4ada13eacb443f20f5a52a84e2fd001fab80455",
+          "bytes": 323311
+        }
+      }
+    },
+    {
+      "id": "b2a42634f3e22fdbd71e",
+      "evaluation_seed": 7,
+      "success": false,
+      "first_success_step": null,
+      "steps": 520,
+      "video": "example_2.mp4",
+      "preview": "example_2.png",
+      "files": {
+        "example_2.mp4": {
+          "sha256": "fb05169214ed674d474c95c3c457c4b849a524aa0b7bf9163ed074366d8cd697",
+          "bytes": 2083497
+        },
+        "example_2.png": {
+          "sha256": "b1c14e0e535de06ea03315b398965612199dc7ae96f1d01315ca4cff23de6d56",
+          "bytes": 423646
+        }
+      }
+    },
+    {
+      "id": "4c534bdedcbafd5b86c3",
+      "evaluation_seed": 17,
+      "success": true,
+      "first_success_step": 161,
+      "steps": 520,
+      "video": "success_1.mp4",
+      "preview": "success_1.png",
+      "files": {
+        "success_1.mp4": {
+          "sha256": "4bec21953d5c20511bac2241c1d61a9f907a9208d4a631dc2af0fafb74f23155",
+          "bytes": 2294714
+        },
+        "success_1.png": {
+          "sha256": "61f49ab20553697e783659594ae0c73d7891e5aacbf46ae83ccf12b068c0514e",
+          "bytes": 461703
+        }
+      }
+    },
+    {
+      "id": "d9afdaa469b89a33d47b",
+      "evaluation_seed": 17,
+      "success": true,
+      "first_success_step": 269,
+      "steps": 520,
+      "video": "example_4.mp4",
+      "preview": "example_4.png",
+      "files": {
+        "example_4.mp4": {
+          "sha256": "906adf7d82d074f85fce239fa83f95b6f24744b63c15563a683c9f6972d0777d",
+          "bytes": 2211441
+        },
+        "example_4.png": {
+          "sha256": "7d4ad0c7b3e2772b78aed2e4496853933f702b1599db4683c7cda8b548ed420a",
+          "bytes": 460099
+        }
+      }
+    },
+    {
+      "id": "81590ba5acb8e3eb6ce8",
+      "evaluation_seed": 27,
+      "success": true,
+      "first_success_step": 191,
+      "steps": 520,
+      "video": "success_2.mp4",
+      "preview": "success_2.png",
+      "files": {
+        "success_2.mp4": {
+          "sha256": "82d7e33d50939a68648e05d58c6af10b3eabadf63dc7c0172bdc57c95d5dba96",
+          "bytes": 2605375
+        },
+        "success_2.png": {
+          "sha256": "7800896f89172e68fff43b123773349af54b75020428b587be217b287fe5c7a1",
+          "bytes": 372394
+        }
+      }
+    },
+    {
+      "id": "b952ca9bae0e4a73d7af",
+      "evaluation_seed": 27,
+      "success": false,
+      "first_success_step": null,
+      "steps": 520,
+      "video": "example_6.mp4",
+      "preview": "example_6.png",
+      "files": {
+        "example_6.mp4": {
+          "sha256": "477f1ceaaf78a48a3a76bd81437bdd12fd37a1c4630c34a039991d72c75e0ff1",
+          "bytes": 2470299
+        },
+        "example_6.png": {
+          "sha256": "941f0d491860cdaf410b5c21916188df66b27673961ad45b6f07d12f206f51c4",
+          "bytes": 339110
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "repository": "https://github.com/liulin815/LIBERO-Recovery",
+  "revision": "7584d1baf3191e9a326c1d984e3fc7735a6cccbf",
+  "archive_sha256": "ec649a79299e887aeede8a01754ef346e02b3480f0ddf766fea97579d0f95993",
+  "baseline": "Complete upstream source archive; no upstream Git history. Identifying local path defaults, contact metadata and project homepage sanitized before the first commit. Third-party legal notices and public dependency identifiers retained.",
+  "sanitized_files": [
+    {
+      "path": "index.html",
+      "upstream_sha256": "66266d9835b8c30750c78aebbc8554c8bd6b2c6a6f6c9381ec01ee14aae09422",
+      "snapshot_sha256": "4843546a98f4000c349d25a6d26acb015beb6603fab6845c9d85fb3265e51a5b"
+    },
+    {
+      "path": "LIBERO/setup.py",
+      "upstream_sha256": "848de286575e813c0c77cba86aad48de85945d7fce1b163cc13eaa45737c476e",
+      "snapshot_sha256": "e0330cce475cfbdcf94cff0955ed06095d7f9d034adf014b0afade187e55b34b"
+    },
+    {
+      "path": "examples/Behavior/start_client.sh",
+      "upstream_sha256": "102b0f6ce66e0a20df83fac70a24b9cfce58b6d9672682f2a34a6fb614a33ca9",
+      "snapshot_sha256": "9984bfd87c059a36c3ed82a6dc68a2a621d33f92cc1979e9515a3a3226cadee0"
+    },
+    {
+      "path": "examples/Behavior/start_server.sh",
+      "upstream_sha256": "19a9d236cf9d358ebb9b3100c116b693766511638ef1eba45a875b53992a84c2",
+      "snapshot_sha256": "cf9eab724138844f332ea8cc86a00dad314b5766cc8bce72263c0ee992fe350b"
+    },
+    {
+      "path": "examples/Behavior/start_parallel_eval.sh",
+      "upstream_sha256": "9d8a997b1482d5cfd6ac904f9e8802495b4a221bc27b3342e943bd839f53e4b9",
+      "snapshot_sha256": "61ddb5270d595525106995681beeff40ec01689d6164805cd244dea418b9dcf1"
+    },
+    {
+      "path": "examples/Behavior/start_parallel_eval_per_task.sh",
+      "upstream_sha256": "37542bc6ed5c8c2a45a72aacf6275aa5c266d3605624ae18d74c9d5492cfc795",
+      "snapshot_sha256": "157aa3edb0c661d4d4b1ed7a0e28e95ac712cf895f2756bf2c24fcdb9d34e57d"
+    },
+    {
+      "path": "examples/calvin/README.md",
+      "upstream_sha256": "0d4d05aa60609d91cdb8fa8f7a80167a3f3721874b3d4cb5a61d1f9600ab7e4d",
+      "snapshot_sha256": "683b30c46d64f4ac5918b97179dbe71ec6861f582cba48cd26c92a026fb6c32c"
+    },
+    {
+      "path": "examples/realRobots/EgoVLA/train_files/starvla_egovla.yaml",
+      "upstream_sha256": "7f04a85f7d52fe266f73bdf5573197bee4632a137aa1812cbd30b99fbb6a98c6",
+      "snapshot_sha256": "7dadf15c07ba92e14f2a5458e1eeefabe32106fc201f0eed8813fa09dbd80f6b"
+    },
+    {
+      "path": "examples/realRobots/EgoVLA/eval_files/egovla_g1_policy.py",
+      "upstream_sha256": "283e5d4c95af83c79499b691286aa0239d26ca8e9fcccef7c4527dacd175dee5",
+      "snapshot_sha256": "6fd6a56ff2b079a239490456a6b964f7fcc46507707ccc836f02ac1b88a9e2d6"
+    },
+    {
+      "path": "examples/realRobots/EgoVLA/eval_files/decode.py",
+      "upstream_sha256": "7894094512011d85f490c15ccd3896f079a9acab40299a6cc00da462322d1f91",
+      "snapshot_sha256": "ba757e829c7dbe378869662e96c04561f48ec7d5e345e06b6e5278a30a3ef144"
+    },
+    {
+      "path": "examples/Robotwin/train_files/run_robotwin_train_batch.sh",
+      "upstream_sha256": "56f9e6e8c626cc3f58ffd947a905c58c1bb301cb89af3dc6162ef434047aa7b7",
+      "snapshot_sha256": "05b530b1bc19cff1956e0992fea4418ed0c9764434d9b6bb824584b4ae8746a8"
+    },
+    {
+      "path": "examples/Robotwin/eval_files/eval.sh",
+      "upstream_sha256": "2b28b293e2869c741ca9aac52ce19eae9b19cb36af0d991156066024939cbca9",
+      "snapshot_sha256": "481f580a568072fcb5286872737218366290c3b28da72b0ecd1c6f06c7adbe2f"
+    },
+    {
+      "path": "examples/calvin/eval_files/eval_calvin.py",
+      "upstream_sha256": "18590a3fad78c2eefa31b4919531445b379e1d46d1eeb2d2f1d5ac7fbf120587",
+      "snapshot_sha256": "c76acbdb66266e161fa2109325ad291eb2f28e8aad98324b3e1f0ec4b4c7d83a"
+    },
+    {
+      "path": "examples/simBenchmarks/Behavior/start_client.sh",
+      "upstream_sha256": "41b0d54016199184b390ce8ef8377c56c2c60cf8071d64220b1297aa561488f1",
+      "snapshot_sha256": "b7ba84511c469410c7da591c40402a84982e5f95bf0b1a30238848fa46d792e4"
+    },
+    {
+      "path": "examples/simBenchmarks/Behavior/start_server.sh",
+      "upstream_sha256": "19a9d236cf9d358ebb9b3100c116b693766511638ef1eba45a875b53992a84c2",
+      "snapshot_sha256": "cf9eab724138844f332ea8cc86a00dad314b5766cc8bce72263c0ee992fe350b"
+    },
+    {
+      "path": "examples/simBenchmarks/Behavior/start_parallel_eval.sh",
+      "upstream_sha256": "aa0660a8868320d7a5f1aef56b36cbdf94e90192becc5061f29f33bc3f221bfb",
+      "snapshot_sha256": "bb63e0fb4db5af14373527443bf455c96b371187150b5081968c5198f4b93c13"
+    },
+    {
+      "path": "examples/simBenchmarks/Behavior/start_parallel_eval_per_task.sh",
+      "upstream_sha256": "3feb68e0a3f46187fe049431c6e3e3e8dfbec6312b8762c5cdce59464e70b95a",
+      "snapshot_sha256": "0a5b8b96e0116320b4f641d917260a476708ca0d8a14a8e12e8d6a8ff0c88efe"
+    },
+    {
+      "path": "examples/simBenchmarks/calvin/README.md",
+      "upstream_sha256": "77341b105236c9554796133ba644cc89df4a5a2960f36f439444fc75718c8afe",
+      "snapshot_sha256": "059e6d6c9a1a213e18f172a148e50af3c2850711a6f4043bdfb9d917e77b7035"
+    },
+    {
+      "path": "examples/simBenchmarks/Robotwin/train_files/run_robotwin_train_batch.sh",
+      "upstream_sha256": "217be479ea44918b93ded889a84c2fc01fc93ae9916170ca4d0106040e961ce2",
+      "snapshot_sha256": "9cb4892731520bddcd522e819451b80e260befb47cf279cc27699699d120117d"
+    },
+    {
+      "path": "examples/simBenchmarks/Robotwin/eval_files/eval.sh",
+      "upstream_sha256": "bec6e6a621abf20b22a73be0f21e4849dc6696ace1c6b1a0cedf1964ad5cd180",
+      "snapshot_sha256": "7c02110aac67cb4bb7554fe9a9eb421315831b4ac132df9e7778e6ba6bc88079"
+    },
+    {
+      "path": "examples/simBenchmarks/calvin/eval_files/eval_calvin.py",
+      "upstream_sha256": "2b8538fdd552cb2a4f406b674dfcd4cf074f2e923a46d909ac3002889a70a10c",
+      "snapshot_sha256": "d051b3c130a27ffede0658820f0d68eb4ae94f6410148f8accfd797db4ea9d74"
+    },
+    {
+      "path": "examples/simBenchmarks/Robocasa_tabletop/train_files/submit_robocasa_training.sh",
+      "upstream_sha256": "525339ffda9347c5bce55fe51e0b3ecfc34331bc847178d23cf95baa4431a851",
+      "snapshot_sha256": "e2699036e54f5bda445f9542207fed52c48e205358c27c6d5fe2fc3bc5074b5b"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_bridge.sh",
+      "upstream_sha256": "4894a1190767d84ae9b890299210544fb22c14a2c6d135b23f9833cf618ae458",
+      "snapshot_sha256": "fbcb19ecba1f4c66191e3ea48cb565c6ce5496f918edeb8266eb96d3fd4a50c1"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_move_near_visual_matching.sh",
+      "upstream_sha256": "e5bb8beded527544e11f25ce8a840e37d99a36c2ac21ee3480e602548c3079ea",
+      "snapshot_sha256": "a3a295829056ec054a6e68ab1c5e1a6fc932195cf2860442af0c964392ba2f3f"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_put_in_drawer_variant_agg.sh",
+      "upstream_sha256": "3a0c6d6a2081c9864a4bb5214c7f0a9489dbc98b2e30fa4d20da89f92d077d37",
+      "snapshot_sha256": "10d99ee42c09e3e8e5620290af91e1a5c66d7cd8e92c4ac6cfd12eb5d93faa48"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/calc_metrics_evaluation_videos.py",
+      "upstream_sha256": "d0f16342d47245adc952c71905fb23ba0ec4a34c51f12d32a4e332de472b2542",
+      "snapshot_sha256": "368528f0577b1ffa32d7e7047a89ae1fd3b7bb06d64f2c7c12c5ca0a4c89e7a1"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_drawer_visual_matching.sh",
+      "upstream_sha256": "6d9bd785cb0f14f3643d273a625bb34747f4f635de2b015111b2aa7989db57c9",
+      "snapshot_sha256": "60cbb7e9d476162fb85280e88deeb3598cb68b43c138256b1f3771d555674814"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_drawer_variant_agg.sh",
+      "upstream_sha256": "01b91c2708c62c13a9d31acc2bb5254d49834ec28dc8a24e6d6520e341b2dfd6",
+      "snapshot_sha256": "f0ac0e432bc6171d73c28c319423b106c52b680ed4a9d5b809dad4018a86e670"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_move_near_variant_agg.sh",
+      "upstream_sha256": "fbf3b3e311eac21dfa8f575f2c1abc7083496058db2980813c12238b53400770",
+      "snapshot_sha256": "906ec0dbc8abc7edcc70e55ceaa97ff16ebfd2e663ffe01aaf242131992574e9"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_pick_coke_can_variant_agg.sh",
+      "upstream_sha256": "a2dd81d03859a05799b8dc1fd7ae17f7fac087b4fdd439a41b93623fcaff3514",
+      "snapshot_sha256": "aab0734c91bc953bb2e65966656c1f900c3957e058c6c148d36ea8376f27e886"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_pick_coke_can_visual_matching.sh",
+      "upstream_sha256": "93755bc2d2bfa042659fde91b1a21341b1323459ba92ad0f8a8754f6470bb9ff",
+      "snapshot_sha256": "1256cda101b8b6f356594239dd769374931a001d6374eed318aa5aaec42a6144"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/star_put_in_drawer_visual_matching.sh",
+      "upstream_sha256": "a8a430b3f7d79dce87f0b66e12ad93c3403c1dd1d918a74f6d8c2d75a4dc5cc3",
+      "snapshot_sha256": "1b9ba80b92c2e588783aafba7e9f7c8e52e334c321afc6f22526e7017253999d"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/auto_collect_results/schedule_google_eval.sh",
+      "upstream_sha256": "f427c9bae4ea9bfe0ef865c3d1cbcc666d5507c4f6590c76e1464968fcb108d4",
+      "snapshot_sha256": "d012fd6507fabdec31cd40e39c2ea2ab94b23893521859d302d0e62849425693"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/auto_collect_results/README.md",
+      "upstream_sha256": "b6f8a89b75a0f1d00f4d6eb06eb667a80a325ab73e3a7768ca01afd1c43e6cea",
+      "snapshot_sha256": "7ec22a938dfd13c7d53fb4d459bbbda60e104c9151ef424ed8ad56fd6b504b8e"
+    },
+    {
+      "path": "examples/simBenchmarks/SimplerEnv/eval_files/auto_eval_scripts/auto_collect_results/rm_pt.sh",
+      "upstream_sha256": "f457d7f34ab5b771a79505564285d7b2010cd0c57962f615cf408df3b67a4f8f",
+      "snapshot_sha256": "c8426fffd56c98fefc602499ac93e3cf296c5a673a90c3a4f263b63e460a3ca5"
+    },
+    {
+      "path": "examples/simBenchmarks/LIBERO/eval_files/install_libero.sh",
+      "upstream_sha256": "03011f411b69d94f8ae92b2dae7b1f16b773e1c2740ef36602d3c1b990e16c32",
+      "snapshot_sha256": "2e0239a79b1dc0cd9035adb166dfbfc469e8832b8fa6336eee8f9d510c9ba022"
+    },
+    {
+      "path": "examples/modelExtensions/NeuralVLA/run_libero_train_yibu.sh",
+      "upstream_sha256": "a9e5e948e3b750d65518f7869c58e81e6b811f25957b63e6d334a2247e612a7a",
+      "snapshot_sha256": "110e431f775477a30ea01de96fc4a15f04966dfeea7f34af310fa5debd229fef"
+    },
+    {
+      "path": "examples/modelExtensions/NeuralVLA/readme.md",
+      "upstream_sha256": "81c8742a71897505e11c72428e26a70b6420e4850c4a1f904a10fc87f2cd16ff",
+      "snapshot_sha256": "4f00927f578cd5c9a5640ddaffec74effdacce86449bb555c3acb867e5b851f6"
+    },
+    {
+      "path": "examples/modelExtensions/NeuralVLA/NeuroVLA_cotrain_custom.yaml",
+      "upstream_sha256": "f4baa59a77e1a3d8284f693455cb54e198474c0a518d396f475880a07b994bea",
+      "snapshot_sha256": "b6b569977f027d4f22bc789fc830a1dc758a0eb89062e0d5f2bc40fa736d4410"
+    },
+    {
+      "path": "examples/Robocasa_tabletop/train_files/submit_robocasa_training.sh",
+      "upstream_sha256": "5c95361ca90559b9ccab7281537e564ee6750a2f2fa1415a1eba658e75f32433",
+      "snapshot_sha256": "8bc3e80e0e9ef55cbb2749f893cb37a16147321c5f1253dd9084e58c00d62ca6"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_bridge.sh",
+      "upstream_sha256": "5433a198436783295e81e58e49ac6f7ec21dbd5ad9fe8e08a4eb0c316068931b",
+      "snapshot_sha256": "29353d2f58b664fb506f48ee5a41e947296d43b92054bc8df1a2b2c1c836dbe3"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_move_near_visual_matching.sh",
+      "upstream_sha256": "449a36a24b35887f4f8c2b38a752299957b8beca03fc68190f9d07d82912eb09",
+      "snapshot_sha256": "22dd71ccc698deb1c4fc6d5914ca04df4439ee150e65e9853da332e8d1645d4c"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_put_in_drawer_variant_agg.sh",
+      "upstream_sha256": "dbfb910b2fe26b6ad4da92cfcac90ef3640d91ffcd757bce5d97e71ea8030ec0",
+      "snapshot_sha256": "c712203469c3ed727d1dd7f57c9a419e8d855239aefd9eb790bda85883edbaaf"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/calc_metrics_evaluation_videos.py",
+      "upstream_sha256": "d0f16342d47245adc952c71905fb23ba0ec4a34c51f12d32a4e332de472b2542",
+      "snapshot_sha256": "368528f0577b1ffa32d7e7047a89ae1fd3b7bb06d64f2c7c12c5ca0a4c89e7a1"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_drawer_visual_matching.sh",
+      "upstream_sha256": "44a49b7b31de4f4297c65297526e0037e245418706de6daa94117d8be5f3d0ed",
+      "snapshot_sha256": "8c07ec6bca478c3659d77777a64dedbbd9d2c58a5f2003ef5fccf1cd6f6eaf65"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_drawer_variant_agg.sh",
+      "upstream_sha256": "9a2209b793e12508eaf4a3edfa4b09a062076e3ab94408f2e58857bb7fe7336a",
+      "snapshot_sha256": "a5745bc157f260dee6af4fc06f65967673d1cc9bcb3e04e4e6e6786b88d1efc1"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_move_near_variant_agg.sh",
+      "upstream_sha256": "d84303f6c08b6c49de948c4dfe83d57a3a8e72522ffbd3cf5cc7f2b0bc0d8f28",
+      "snapshot_sha256": "2aa6d861217d413dd7f1c5bc26f8ebf88759d1accd986884cf86b9a2f849e100"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_pick_coke_can_variant_agg.sh",
+      "upstream_sha256": "b804e658d9e8f0a80b78360a36a1b5005aedd7c0f95a90518778a7f85bfeea69",
+      "snapshot_sha256": "47bb844c3f785031b7128290a3b0ee1bb3890c709bf975dab9d44c1e8939148b"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_pick_coke_can_visual_matching.sh",
+      "upstream_sha256": "193bea67b2f0fe955fd0ad4dfcd5e00110f20c70ab2de13fd509c97c5fd4ed3d",
+      "snapshot_sha256": "4e0cb692f0d6b15e1ad2129ed181f7786e0968e7161332fa2d04077404cc733c"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/star_put_in_drawer_visual_matching.sh",
+      "upstream_sha256": "082028642dff306d88c2dd7141ac59739c6078632c6f666a61533866bcd08287",
+      "snapshot_sha256": "3c9c3e1b3f30568149230743352053dbb813f222901a5656444b06e7ab598dfd"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/auto_collect_results/schedule_google_eval.sh",
+      "upstream_sha256": "34df4d73fdc6675f3df4d56599d14294d333c7c3056cd291b29367b7b703f2ce",
+      "snapshot_sha256": "d012fd6507fabdec31cd40e39c2ea2ab94b23893521859d302d0e62849425693"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/auto_collect_results/README.md",
+      "upstream_sha256": "9f7860fa2518050fa69936318a82bb8afe19529fcac14b84d64cdfb7dd3f5022",
+      "snapshot_sha256": "590f385dbb170c6497726c40eae21614be0ddcc6f5f62c63ce452f544f3e9bbf"
+    },
+    {
+      "path": "examples/SimplerEnv/eval_files/auto_eval_scripts/auto_collect_results/rm_pt.sh",
+      "upstream_sha256": "f457d7f34ab5b771a79505564285d7b2010cd0c57962f615cf408df3b67a4f8f",
+      "snapshot_sha256": "c8426fffd56c98fefc602499ac93e3cf296c5a673a90c3a4f263b63e460a3ca5"
+    },
+    {
+      "path": "examples/LIBERO/eval_files/install_libero.sh",
+      "upstream_sha256": "3647ed926250ebf3bcc873f9d52f7f82c7ca30e5dd829f44aec971ebf5f6f41c",
+      "snapshot_sha256": "8e4b59042c87b0d87dd67d606dc726d8c951daa65ae3e66758f53a32e1c4e464"
+    },
+    {
+      "path": "deployment/docker/Dockerfile.server",
+      "upstream_sha256": "9ff777e2a7d493ebe207a8def692fc4830bf833f22ab0130cfe22459737afec8",
+      "snapshot_sha256": "c5ec5853da30fedb95ad1c0ba551f83a8981162b80362eccf1df95e3f7e1dee9"
+    },
+    {
+      "path": "deployment/docker/Dockerfile.train",
+      "upstream_sha256": "bbd921b1ac31dda8b774a4502b671c7cdeda696c0542e0ee532724f04b399257",
+      "snapshot_sha256": "1e4557b4bb29f8430a53e36f88ce81fb2ff8e9e878b64de2976236efcb7ac585"
+    },
+    {
+      "path": "deployment/docker/README.md",
+      "upstream_sha256": "2d6dc937a68bfbfb2cd6758d27571b19915659d2e21c52fc5daa2f9052e1bd8f",
+      "snapshot_sha256": "3569e5ca13020bd5f35e247b625ade458f16797e94314c4d534e69d62f4f14a1"
+    },
+    {
+      "path": "deployment/docker/Dockerfile.robocasa",
+      "upstream_sha256": "583ba222b8608e618dfaafbdfe5b9999930418c9c58db2336b28654db5c01d1d",
+      "snapshot_sha256": "b8ab229fc9d5ca03fd415c616b2fca1484d2d2bed4bd2dde6b09cf33305422ba"
+    },
+    {
+      "path": "deployment/docker/docker-compose.yml",
+      "upstream_sha256": "7780366004c324e2f898ff6ffcfb2a8eeb9b94f74b03b4c0e30f99ee13ed7a84",
+      "snapshot_sha256": "a17b33579510aa7732818e456adb8200f704cb70f63d52e07d131522c46688be"
+    },
+    {
+      "path": "starVLA/dataloader/lerobot_datasets.py",
+      "upstream_sha256": "9350dfd207723dc5618d242406208fdce8fa093d464b58613214da8b7101d42b",
+      "snapshot_sha256": "b348ff1985142346894ba10b2284c6465b6f4d52f2f4c41add8d152974d1f206"
+    },
+    {
+      "path": "starVLA/model/modules/action_model/DiTActionHeader.py",
+      "upstream_sha256": "e542521ab12a50e680953914713326baadf48cf5bffa3958149335c820d6be50",
+      "snapshot_sha256": "4a7475b0b9afd23e6af247f7eb679d852009691c8fabe54ccac27201ab8add92"
+    },
+    {
+      "path": "starVLA/model/modules/action_model/LayerwiseFM_ActionHeader.py",
+      "upstream_sha256": "22ff2e4f7729c4bdbee895175f92a885f4a32290f57e3502adcf4892f07c357c",
+      "snapshot_sha256": "e877a006d0707b4fa57c4a4055df0fb123f6c36f02c870a621b035daae318e28"
+    },
+    {
+      "path": "starVLA/model/modules/action_model/GR00T_ActionHeader.py",
+      "upstream_sha256": "a01c7ca048589835a23bf46cf670275dfa643a1fb2da0bafd14654e1a57236e5",
+      "snapshot_sha256": "b241043de4ae901727e508a9857d04f0012f4ebb4c724c17322a68750a9d5779"
+    },
+    {
+      "path": "starVLA/model/framework/VLM4A/QwenPI_v3.py",
+      "upstream_sha256": "75215cd27542524858105f0715c02574ef024f5fc0ac08230ee8d6f987690807",
+      "snapshot_sha256": "cddaec38942042151af9ebb30456e4b656b58834a2b5265a7d0cd094bed1c292"
+    },
+    {
+      "path": "starVLA/model/framework/VLM4A/M1.py",
+      "upstream_sha256": "4afbdc7889f0b527efbdf037832153285aad5e786093ac09497b9732187abde3",
+      "snapshot_sha256": "783525e531f676ee728984fbf68c9a03cef5fbfdfe27c0ab6860d444fb27cb5d"
+    },
+    {
+      "path": "starVLA/training/trainer_utils/overwatch.py",
+      "upstream_sha256": "26490d610d638c975b1f60ade0d94125d09f86e1773ce8ad0fb65d81e6bf057f",
+      "snapshot_sha256": "eb2c45305966677e1edafa1e6d7b72765f6d310f88451862365e377d32a91b85"
+    },
+    {
+      "path": "LIBERO/notebooks/custom_object_example.ipynb",
+      "upstream_sha256": "8a44aa6e1191c3510e25fd0a770880d9535520469bbc9175a1ccc1eccba62886",
+      "snapshot_sha256": "b3cf904908c29197e1fee1ce4f0cd30cf4bc734cdbd6f36656f626ad1921c708"
+    },
+    {
+      "path": "LIBERO/notebooks/quick_guide_algo.ipynb",
+      "upstream_sha256": "3d21a5f4578f4985a10cf1ad478a55f03d114f537062ad9683b349decf13e933",
+      "snapshot_sha256": "8fcc2446d53a989d9fa13d4c51096853507aeb8af986788a8dafb43114ef3d56"
+    },
+    {
+      "path": "LIBERO/notebooks/quick_walkthrough.ipynb",
+      "upstream_sha256": "a4af0bf0921b6e7089217f9072f35c33420d00773e17164d803ac75b6423c077",
+      "snapshot_sha256": "0e86e7ce18d2dff767ef9860ab184ce1d4d73889d4b21ccbb55ee2f4badde9d4"
+    },
+    {
+      "path": "LIBERO/notebooks/procedural_creation_walkthrough.ipynb",
+      "upstream_sha256": "a1bcc8465765b6862a7e3ccdbd7675a5aad89b0b33d34712f106eb96982237b7",
+      "snapshot_sha256": "88a78bd6313519b3a13ffdbe30f5f2c6ceea18e484229747a49c4723c3e9a9cf"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/stable_scanned_objects/basin_faucet_base/basin_faucet_base.xml",
+      "upstream_sha256": "222415a2bf02d69c5983c29fb4d6bf4ecd0b73da46318cdf0115ba00740b713a",
+      "snapshot_sha256": "d95389848864fed360547c952a8bbc289b6fcb96acc125807c7ce4a08ce9bf21"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/stable_scanned_objects/basin_faucet_movable/basin_faucet_movable.xml",
+      "upstream_sha256": "69b216384753495ba02f15fdb0eb41ef773277847027013c4cf2426c86151de9",
+      "snapshot_sha256": "8d2c07b6eb7ec4780977504d23a123048372f4562a2ec6f0d52fc95b20b16e6d"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/turbosquid_objects/wooden_shelf/wooden_shelf.mtl",
+      "upstream_sha256": "996dcf8718d616342a7cc4a7731a448d9dacb66c6d1c0417d7a00d5b673e7936",
+      "snapshot_sha256": "2a0a967454b3ac733bb0804ff97eb7acb9072794835fcc4e71f721672c81d88c"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/turbosquid_objects/wine_rack/wine_rack_stoppers.mtl",
+      "upstream_sha256": "4f3c4cacb1f063dfe973a772612d6c6a7ba1532010ec05c49be904c347505521",
+      "snapshot_sha256": "0690bedbcbcfead6fb1af2161c3235693c976218f033649642899404ad51b965"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/turbosquid_objects/wine_rack/wine_rack_stand.mtl",
+      "upstream_sha256": "a0b3318177e43bec62eed04780a6b3f5bc743b4552b6c07f62356bf3962e2154",
+      "snapshot_sha256": "4db23b3c1004c5b0ab46ec9f8a20f99bb48d9dcd03f50cf9d6cc28ee87ebb878"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/turbosquid_objects/wine_rack/wine_rack_planes.mtl",
+      "upstream_sha256": "5e2d9bf426ad5322b4600057cc8bbf81d08a08e09f65f180b94d811591f54ced",
+      "snapshot_sha256": "ee4bd11ae118fbb116a8ef3e0a91435b918c117fa46340c27137bff36309f894"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/articulated_objects/wooden_cabinet/wooden_cabinet_base/wooden_cabinet_base.mtl",
+      "upstream_sha256": "d27518e28b7acd8ee6ee87b7346be3dfcb26fa8738655ced2fd31511649e95db",
+      "snapshot_sha256": "c83efce44db2dc38430a3794ddafd75595043074baf842a992dc61db0805bf70"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/articulated_objects/basin_faucet/basin_faucet_base/basin_faucet_base.xml",
+      "upstream_sha256": "222415a2bf02d69c5983c29fb4d6bf4ecd0b73da46318cdf0115ba00740b713a",
+      "snapshot_sha256": "d95389848864fed360547c952a8bbc289b6fcb96acc125807c7ce4a08ce9bf21"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/articulated_objects/basin_faucet/basin_faucet_movable/basin_faucet_movable.xml",
+      "upstream_sha256": "69b216384753495ba02f15fdb0eb41ef773277847027013c4cf2426c86151de9",
+      "snapshot_sha256": "8d2c07b6eb7ec4780977504d23a123048372f4562a2ec6f0d52fc95b20b16e6d"
+    },
+    {
+      "path": "LIBERO/libero/libero/assets/scenes/kitchen_background_hot_pot/kitchen_background_hot_pot.mtl",
+      "upstream_sha256": "2c1f20c1ea418dc76580ae3bea4b490bbc0c4748882f0f28d5b5b334288270ce",
+      "snapshot_sha256": "9541c7363517601cac08c743c90c40144b5f2ea46336f5d7e0260a570a418562"
+    }
+  ]
+}

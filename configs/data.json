@@ -1,0 +1,56 @@
+{
+  "sources": {
+    "success": {
+      "provider": "huggingface",
+      "repo_id": "physical-intelligence/libero",
+      "revision": "a4336d589d589045d1c56423ffdf3b88a0e19b1f",
+      "local_dir": "data/success",
+      "episodes": 1693,
+      "frames": 273465
+    },
+    "success90": {
+      "provider": "huggingface",
+      "repo_id": "yzembodied/libero_90_image",
+      "revision": "e0dbecb8926da58d65ad990e4ea9b570291066b2",
+      "local_dir": "data/success90",
+      "episodes": 4500,
+      "frames": 669043
+    },
+    "recovery": {
+      "provider": "modelscope",
+      "repo_id": "ataier/LIBERO_Recovery_Expert",
+      "revision": "2804e989adfb49cdde9b5c04bc7e0fb9f4fbfc73",
+      "local_dir": "data/recovery",
+      "episodes": 3184,
+      "frames": 625731
+    },
+    "failure": {
+      "provider": "huggingface",
+      "repo_id": "echo-iclr/echo-failure-libero",
+      "revision": "71e79ed6bcf4c9a6468f6919194a780f84e7dae9",
+      "format": "echo_failure_shards_v1",
+      "local_dir": "data/failure",
+      "episodes": 9521,
+      "frames": 4950920
+    }
+  },
+  "assets": {
+    "provider": "modelscope",
+    "repo_id": "ataier/LIBERO_Recovery_Assets",
+    "revision": "4183a3978e848fd8caab56474abfd4f8eb1ee42e",
+    "local_dir": "data/scenes"
+  },
+  "weights": {
+    "provider": "huggingface",
+    "repo_id": "tenstep/pi_model_starvla",
+    "revision": "13b0c90e378bf7a873bf6cea99c68e6aef04f5c8",
+    "subdir": "pi05_libero_starvla",
+    "local_dir": "data/pretrained",
+    "sha256": "3602da18207c1b22aad139aa08460f9d808dce9eb7e9aee3342c754825d2a25e"
+  },
+  "tokenizer": {
+    "url": "https://storage.googleapis.com/big_vision/paligemma_tokenizer.model",
+    "sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+    "local_file": "data/paligemma_tokenizer.model"
+  }
+}

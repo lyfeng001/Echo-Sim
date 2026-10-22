@@ -1,0 +1,17 @@
+{
+  "manifest": "manifests/evaluation_seed7.json",
+  "scene_root": "data/scenes",
+  "prompt_registry": "manifests/prompts.json",
+  "checkpoint": "runs/echo_tau07/checkpoints/step_00002500",
+  "tokenizer": "data/paligemma_tokenizer.model",
+  "run_dir": "runs/eval_tau07_seed7",
+  "device": "cuda:0",
+  "render_gpu_id": 0,
+  "max_steps": 520,
+  "execute_horizon": 8,
+  "settle_steps": 20,
+  "noise_xy": 0.02,
+  "control_hz": 20,
+  "video_fps": 20,
+  "num_inference_steps": 10
+}
